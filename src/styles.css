@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: "Bradley Hand ITC", cursive;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+img{
+    width: 1000px;
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0;
+}
+
+input{
+    width: 350px;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid;
+    border-right: none;
+}
+
+button{
+    width: 70px;
+    padding: 10px;
+    border: none;
+    border-radius: 0 5px 5px 0 ;
+    background-color: lightgreen;
+    text-transform: capitalize;
+}
+
+ul{
+    max-width: 1000px;
+}
